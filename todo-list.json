@@ -1,1 +1,74 @@
-[{"language":"PHP","done":false},{"language":"Javascript","done":false},{"language":"VueJS","done":false},{"language":"Html","done":false},{"language":"CSS","done":false},{"language":"ciaso","done":false},{"language":"ciao","done":false}]
+[
+    {
+        "name": "Marco",
+        "surname": "Rossi",
+        "email": "marco@rossi.it",
+        "password": "marcorossi",
+        "todolist": {
+            "0": {
+                "language": "HTML",
+                "done": false
+            },
+            "1": {
+                "language": "CSS",
+                "done": false
+            },
+            "2": {
+                "language": "Javascript",
+                "done": false
+            },
+            "3": {
+                "language": "PHP",
+                "done": false
+            },
+            "4": {
+                "language": "Vuejs",
+                "done": false
+            },
+            "5": {
+                "language": "jQuery",
+                "done": false
+            },
+            "6": {
+                "language": "Laravel",
+                "done": "false"
+            },
+            "8": {
+                "language": "Symfony",
+                "done": "false"
+            },
+            "9": {
+                "language": "ReactJS",
+                "done": false
+            },
+            "10": {
+                "language": "AngularJs",
+                "done": false
+            },
+            "12": {
+                "language": "Svelte",
+                "done": false
+            },
+            "13": {
+                "language": "123",
+                "done": "false"
+            }
+        }
+    },
+    {
+        "name": "Luca",
+        "surname": "Verdi",
+        "email": "luca@verdi.it",
+        "password": "lucaverdi",
+        "todolist": [
+            {
+                "language": "test",
+                "done": "false"
+            },
+            {
+                "language": "test2",
+                "done": "false"
+            }
+        ]
+    }
+]
