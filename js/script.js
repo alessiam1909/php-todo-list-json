@@ -67,8 +67,7 @@ createApp({
     mounted() {
         axios.get(this.apiUrl).then((response) => {
             //Convertire una stringa passata da php a oggetto json
-            // let json_object = JSON.parse(response.data);
-            //console.log(json_object);
+
             this.todoList = response.data;
         });
     }
