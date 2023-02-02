@@ -50,10 +50,10 @@ if (isset($_POST['email']) && emailExists($_POST['email'])) {
     <div id="app">
         <div class="container1">
             <div class="row1">
-                <h1>Todo List</h1>
-                <div class="col">
-                    <ul>
-                        <li v-for="(todo, index) in todoList" >
+                <h1 class="titolo">Todo List</h1>
+                <div class="col1">
+                    <ul class="ul">
+                        <li class="elemento-lista" v-for="(todo, index) in todoList" >
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
                                     <div v-if="clicked != index">{{todo.language}}</div>
